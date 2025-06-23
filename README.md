@@ -1,7 +1,9 @@
 
-# Python code to accompany the paper *Vertex addition to a ball graph with application to reliability and area coverage in autonomous swarms* by Calum Buchanan, Puck Rombach, James Bagrow, and Hamid R. Ossareh.
+# Python code to enumerate regions of intersection formed by a set of circles or tori of equal radii, with application to reliability and area coverage in unit disk graphs
 
-Additional functions to accompany our preliminary conference paper *Node Placement to Maximize Reliability of a Communication Network with Application to Satellite Swarms* in the proceedings of the 2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC), Honolulu, Oahu, HI, USA.
+This code was used to produce the simulations for the paper *Vertex addition to a ball graph with application to reliability and area coverage in autonomous swarms* by Calum Buchanan, Puck Rombach, James Bagrow, and Hamid R. Ossareh (2025).
+It includes the functions used for our preliminary conference paper *Node Placement to Maximize Reliability of a Communication Network with Application to Satellite Swarms* in the proceedings of the 2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC), Honolulu, Oahu, HI, USA.
+It also includes a modified Fruchterman-Reingold algorithm which avoids destroying edges in a unit disk graph.
 
 ## Python 3 Requirements:
 
